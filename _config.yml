@@ -20,7 +20,7 @@
 
 title: Clock-in AI - Track Work Hours with Slack App
 email: info@clockin.ai
-metaimageurl: https://clockin.ai/assets/img/metaimage.png
+metaimageurl: /assets/img/metaimage.png
 description: >- # this means to ignore newlines until "baseurl:"
   Keep track of how long your team worked weekly in minute precision by adding Clock-in AI to your team.
   No commands, no bots, only messages.
