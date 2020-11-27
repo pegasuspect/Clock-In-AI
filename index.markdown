@@ -1,0 +1,202 @@
+---
+permalink: /
+layout: default
+---
+
+<section class="pb-0 o-hidden">
+  <div class="container">
+    <div class="row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left flex-lg-row-reverse">
+      <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0">
+        <div data-aos="fade-in" data-aos-delay="250">
+          <h1 class="display-3">Track <mark data-aos="highlight-text" data-aos-delay="500">time</mark>
+          </h1>
+          <p class="lead">Keep track of how long your team worked weekly by chatting with an AI Assistant, Clock-in AI.
+          </p>
+          <div class="mt-4 mt-md-5">
+            <a href="https://slack.com/oauth/v2/authorize?client_id=1485302589104.1501561747172&scope=im:history,chat:write&user_scope=">
+              <img alt="Add to Slack"
+                src="https://platform.slack-edge.com/img/add_to_slack.png" 
+                srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 col-lg-6" data-aos="fade-left">
+        <img src="assets/img/illustrations/illustration-1.svg" alt="Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-0 pt-5">
+  <div class="divider divider-bottom bg-primary-3 mt-5"></div>
+</section>
+
+<section class="bg-primary-3 text-white">
+  <div class="container">
+    <div class="row section-title justify-content-center text-center">
+      <div class="col-md-9 col-lg-8 col-xl-7">
+        <h3 class="display-4">Chat with Clock-in AI</h3>
+        <div class="lead">Install the app and chat away. No sign up required. Designed for teams.</div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col d-flex flex-wrap justify-content-center">
+        <div class="m-2 text-dark">
+          <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+            <img src="assets/img/icons/theme/navigation/route.svg" alt="Binoculars icon" class="icon mr-3 bg-primary"
+              data-inject-svg>
+            <h5 class="mb-0">Accessible Everywhere</h5>
+          </div>
+        </div>
+        <div class="m-2 text-dark">
+          <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+            <img src="assets/img/icons/theme/layout/layout-left-panel-2.svg" alt="Layouts icon"
+              class="icon mr-3 bg-primary" data-inject-svg>
+            <h5 class="mb-0">Multiple Users</h5>
+          </div>
+        </div>
+        <div class="m-2 text-dark">
+          <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+            <img src="assets/img/icons/theme/shopping/box-2.svg" alt="Box icon" class="icon mr-3 bg-primary"
+              data-inject-svg>
+            <h5 class="mb-0">Track Employees</h5>
+          </div>
+        </div>
+        <div class="m-2 text-dark">
+          <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+            <img src="assets/img/icons/theme/general/thunder-move.svg" alt="Lightning icon"
+              class="icon mr-3 bg-primary" data-inject-svg>
+            <h5 class="mb-0">No Signup</h5>
+          </div>
+        </div>
+        <div class="m-2 text-dark">
+          <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+            <img src="assets/img/icons/theme/design/select.svg" alt="Selection interface icon"
+              class="icon mr-3 bg-primary" data-inject-svg>
+            <h5 class="mb-0">Team Solution</h5>
+          </div>
+        </div>
+        <div class="m-2 text-dark">
+          <div class="media rounded align-items-center pl-3 pr-4 pl-md-4 pr-md-5 py-2 bg-white text-dark">
+            <img src="assets/img/icons/theme/general/fire.svg" alt="Fire icon" class="icon mr-3 bg-primary"
+              data-inject-svg>
+            <h5 class="mb-0">Save Time</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="o-hidden">
+  <div class="container">
+    <div class="row align-items-center justify-content-around text-center text-lg-left">
+      <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
+        <div>
+          <!-- <div class="alert bg-secondary rounded-lg d-inline-block mb-4">
+            <div class="d-flex align-items-center">
+              <div class="badge badge-pill badge-success">New</div>
+              <div class="mx-3">Announce a great new feature</div>
+            </div>
+          </div> -->
+          <h3 class="h1">No signups</h3>
+          <p class="lead">You can chat with the AI immediately. You do not need to sign up. It will recognize you after your first clock-in.</p>
+          <a href="#" class="lead">Explore More</a>
+        </div>
+      </div>
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img src="assets/img/illustrations/illustration-2.svg" alt="Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="o-hidden pt-0">
+  <div class="container">
+    <div class="row align-items-center justify-content-around text-center text-lg-left">
+      <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
+        <div>
+          <h2 class="h1">Save Time on Paychecks</h2>
+          <p class="lead">
+            The repetitive task of asking how much each member of your team worked doesn't have to be tiresome. 
+          </p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+          <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="100">
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-success-alt">
+                <img src="assets/img/icons/interface/icon-check.svg" alt="Binoculars icon"
+                  class="m-2 icon icon-xs bg-success" data-inject-svg>
+              </div>
+              <h6 class="mb-0 ml-3">Weekly reports</h6>
+            </div>
+          </div>
+          <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="200">
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-success-alt">
+                <img src="assets/img/icons/interface/icon-check.svg" alt="Layouts icon"
+                  class="m-2 icon icon-xs bg-success" data-inject-svg>
+              </div>
+              <h6 class="mb-0 ml-3">For Hourly Employees</h6>
+            </div>
+          </div>
+          <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="300">
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-success-alt">
+                <img src="assets/img/icons/interface/icon-check.svg" alt="Box icon"
+                  class="m-2 icon icon-xs bg-success" data-inject-svg>
+              </div>
+              <h6 class="mb-0 ml-3">Use Only Slack</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 col-lg-6 col-xl-5 order-lg-1">
+        <img src="assets/img/illustrations/illustration-3.svg" alt="Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row section-title justify-content-center text-center">
+      <div class="col-md-9 col-lg-8 col-xl-7">
+        <h3 class="display-4">Clock-in your team</h3>
+        <div class="lead">Get started immediately, no sign up required.</div>
+        <hr/>
+        <div class="lead text-left">
+          <p>
+            Here is how the flow works:
+            <ol>
+              <li>
+                All your employees tells the amount of daily work from the Slack app.<br/> For Example:
+                <blockquote>Worked 5 hours today.</blockquote>
+                <blockquote>Clock-in 2 and a half hours for today.</blockquote>
+                <blockquote>I worked 9 am to 5 pm yesterday.</blockquote>
+                etc, etc...
+              </li> 
+              <li>
+                You only message once for a report, by saying something like:
+                <blockquote>Give me the last 2 weeks report.</blockquote>
+              </li>
+            </ol>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-5 col-lg-6 col-md-7 text-center">
+        <a href="https://slack.com/oauth/v2/authorize?client_id=1485302589104.1501561747172&scope=im:history,chat:write&user_scope=">
+          <img alt="Add to Slack"
+            src="https://platform.slack-edge.com/img/add_to_slack.png" 
+            srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
+        </a>
+        <div class="mt-3 text-small text-muted">
+          By Installing the app you agree to the <a class="text-muted font-weight-normal" href="/terms.html" target="_blank">terms and conditions</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

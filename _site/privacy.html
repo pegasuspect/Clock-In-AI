@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Clock-in AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bootstrap HTML template and UI kit by Medium Rare">
+  <meta name="slack-app-id" content="A01ERGHMZ52">
+  <!-- Begin loading animation -->
+  <link href="assets/css/loaders/loader-pulse.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- End loading animation -->
+  <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="alternate icon" href="/assets/img/favicon.ico">
+  <link rel="mask-icon" href="/assets/img/favicon.svg" color="#ff8a01">
+</head><body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div><div class="navbar-container">
+  <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top">
+    <div class="container">
+      <div class="d-flex align-items-center order-1">
+        <!-- Hide the menu button -->
+        <button class="d-none navbar-toggler mr-3" aria-expanded="false" aria-label="Toggle navigation" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+          <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon" src="assets/img/icons/interface/icon-menu.svg">
+          <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon" src="assets/img/icons/interface/icon-x.svg">
+        </button>
+        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="/">
+          <h2 class="logo d-flex align-items-center">
+            <svg class="mr-2 d-none d-sm-block" height="36px" width="36px" viewBox="0 -19 444.8228 444" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m25.191406 400.648438c.761719 4.351562 4.90625 7.261718 9.257813 6.5l65.316406-11.425782c4.351563-.761718 7.261719-4.90625 6.5-9.257812l-1.273437-7.292969 15.234374-12.371094c5.96875-4.972656 13.640626-7.421875 21.382813-6.839843l106.515625 7.785156c.179688.015625.355469.019531.535156.023437h.65625c23.503906-.050781 46.386719-7.539062 65.367188-21.402343.304687-.222657.59375-.46875.867187-.734376l126.867188-124.222656c3.027343-2.960937 3.21875-7.765625.445312-10.960937-14.640625-16.898438-39.96875-19.3125-57.535156-5.488281l-58.273437 43.574218c-12.117188-14.746094-31.226563-21.835937-50.027344-18.5625l-59.566406 10.417969c-9.492188 1.648437-19.230469 1.140625-28.5-1.484375l-6.660157-1.902344c-34.230469-9.832031-71.109375-2.175781-98.601562 20.46875l-2.507813-14.34375c-.761718-4.351562-4.90625-7.261718-9.257812-6.5l-65.3125 11.425782c-4.351563.765624-7.261719 4.910156-6.5 9.261718zm152.734375-148.25 6.660157 1.898437c11.589843 3.285156 23.765624 3.917969 35.632812 1.859375l59.566406-10.417969c17.066406-2.964843 33.90625 6.300781 40.535156 22.304688l-89.171874 15.597656c-4.09375.710937-6.960938 4.433594-6.601563 8.570313.355469 4.136718 3.816406 7.3125 7.96875 7.3125.464844 0 .929687-.039063 1.390625-.121094l97.910156-17.125c4.351563-.765625 7.261719-4.910156 6.5-9.261719-.636718-3.644531-1.65625-7.214844-3.039062-10.648437l59.710937-44.648438c.054688-.042969.109375-.085938.164063-.128906 8.625-6.820313 20.617187-7.453125 29.910156-1.574219l-120.292969 117.816406c-16.148437 11.65625-35.542969 17.957031-55.457031 18.007813h-.300781l-106.242188-7.796875c-11.835937-.898438-23.558593 2.832031-32.695312 10.410156l-8.242188 6.683594-14.871093-85.023438c23.714843-23.921875 58.585937-33.011719 90.964843-23.714843zm-111.113281 1.371093 22.316406 127.570313-49.554687 8.671875-22.316407-127.570313zm0 0" />
+              <path
+                d="m242.410156 217.675781c59.996094 0 108.632813-48.632812 108.632813-108.628906s-48.632813-108.632813-108.628907-108.636719c-59.996093 0-108.632812 48.636719-108.636718 108.632813.066406 59.96875 48.664062 108.566406 108.632812 108.632812zm0-201.265625c51.160156 0 92.632813 41.476563 92.632813 92.636719s-41.472657 92.632813-92.632813 92.628906c-51.160156 0-92.632812-41.472656-92.632812-92.632812.058594-51.136719 41.5-92.574219 92.632812-92.632813zm0 0" />
+              <path
+                d="m236.8125 125.839844h44.757812c4.417969 0 8-3.582032 8-8 0-4.417969-3.582031-8-8-8h-37.160156v-51.144532c0-4.421874-3.582031-8-8-8-4.417968 0-8 3.578126-8 8v58.746094c.160156 4.570313 3.828125 8.242188 8.402344 8.398438zm0 0" />
+              </svg>
+            <div>Clock-in AI</div>
+          </h2>
+        </a>
+      </div>
+      <div class="d-flex align-items-center order-2 order-lg-3">
+        <!-- <a href="#" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Install Clock-in AI</a> -->
+        <a
+          href="https://slack.com/oauth/v2/authorize?client_id=1485302589104.1501561747172&scope=im:history,chat:write&user_scope=">
+          <img alt="Add to Slack" src="https://platform.slack-edge.com/img/add_to_slack.png"
+            srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
+        </a>
+      </div>
+      <!-- Hide the sample menu link -->
+      <div class="d-none collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end">
+        <ul class="d-none navbar-nav my-3 my-lg-0">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link nav-item" href="#features">Features</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div><section class="bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-9 col-md-11">
+        <div class="card card-body shadow">
+          <div class="d-flex flex-column justify-content-between align-items-start pb-4 mb-4 mb-md-5 border-bottom">
+            <div class="mb-3">
+              <h1 class="mb-2">Privacy Policy</h1>
+              <div class="lead">Updated November 17, 2020</div>
+            </div>
+            <a href="javascript:window.print()" class="btn btn-primary">Print Policy</a>
+          </div>
+          <article class="article">
+            <p>Your privacy is important to us. It is Clock-in AI's policy to respect your privacy regarding any information we may collect from you across our website, <a href="https://clockin.ai">https://clockin.ai</a>, and other sites we own and operate.</p>
+            <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
+            <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
+            <p>We don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>
+            <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
+            <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.</p>
+            <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
+            <p>This policy is effective as of 17 November 2020.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-primary-3 text-white links-white py-4 footer-1">
+  <div class="container">
+    <div
+      class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
+      <div class="col-auto">
+        <div class="text-small">
+          <div class="text-muted">Logo made by <a href="https://www.flaticon.com/authors/kiranshastry"
+              title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/"
+              title="Flaticon">www.flaticon.com</a></div>
+          <div class="text-muted">&copy; 2020 <a href="/privacy.html">Privacy Policy</a> and <a href="/terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up"
+  data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
+  <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-white" data-inject-svg>
+</a><!-- Required vendor scripts (Do not remove) -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+<!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+<!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+<script type="text/javascript" src="assets/js/aos.js"></script>
+<!-- Clipboard (copies content from browser into OS clipboard) -->
+<script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+<!-- Fancybox (handles image and video lightbox and galleries) -->
+<script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+<!-- Flatpickr (calendar/date/time picker UI) -->
+<script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+<!-- Flickity (handles touch enabled carousels and sliders) -->
+<script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+<!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+<script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+<!-- Isotope (masonry layouts and filtering) -->
+<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+<!-- jarallax (parallax effect and video backgrounds) -->
+<script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+<script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+<script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+<!-- jQuery Countdown (displays countdown text to a specified date) -->
+<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+<!-- jQuery smartWizard facilitates steppable wizard content -->
+<script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+<!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+<script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+<!-- Prism (displays formatted code boxes) -->
+<script type="text/javascript" src="assets/js/prism.js"></script>
+<!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+<script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+<!-- Smooth scroll (animation to links in-page)-->
+<script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+<!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+<script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+<!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+<script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+<!-- Typed text (animated typing effect)-->
+<script type="text/javascript" src="assets/js/typed.min.js"></script>
+<!-- Required theme scripts (Do not remove) -->
+<script type="text/javascript" src="assets/js/theme.js"></script>
+<!-- Removes page load animation when window is finished loading -->
+<script type="text/javascript">
+  window.addEventListener("load", function () { document.querySelector('body').classList.add('loaded'); });
+</script>
+</body>
+
+</html>
