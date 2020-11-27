@@ -8,8 +8,9 @@
       {%- include nav-alert.html -%}
     {%- endif -%}
     {%- include navbar.html -%}
-
-    {{ content }}
+    <div id="sr-content-anchor">
+      {{ content }}
+    </div>
 
     {%- include footer.html -%}
     {%- include footer-scripts.html -%}
