@@ -3,7 +3,7 @@
     <div class="container">
       <div class="d-flex align-items-center order-1">
         <!-- Hide the menu button -->
-        <button class="d-none navbar-toggler mr-3" aria-expanded="false" aria-label="Toggle navigation" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+        <button class=" navbar-toggler mr-3" aria-expanded="false" aria-label="Toggle navigation" data-target=".navbar-collapse" data-toggle="collapse" type="button">
           <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon" src="assets/img/icons/interface/icon-menu.svg">
           <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon" src="assets/img/icons/interface/icon-x.svg">
         </button>
@@ -30,10 +30,15 @@
         </a>
       </div>
       <!-- Hide the sample menu link -->
-      <div class="d-none collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end">
-        <ul class="d-none navbar-nav my-3 my-lg-0">
+      <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end">
+        <ul class="navbar-nav my-3 my-lg-0">
+          {%- if page.main -%}
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link nav-item" href="#features">Features</a>
+          </li>
+          {%- endif -%}
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link nav-item" href="/support">Support</a>
           </li>
         </ul>
       </div>
