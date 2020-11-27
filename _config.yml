@@ -42,6 +42,7 @@ url: "https://clockin.ai" # the base hostname & protocol for your site, e.g. htt
 #
 exclude:
   - CNAME
+  - .gitignore
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
