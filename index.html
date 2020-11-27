@@ -102,8 +102,11 @@ main: true
             </div>
           </div> -->
           <h2 class="h1">No signups</h2>
-          <p class="lead">You can chat with the AI immediately. You do not need to sign up. It will recognize you after your first clock-in.</p>
-          <a href="#" class="lead">Explore More</a>
+          <p class="lead">You can chat with the AI immediately. You do not need to sign up. It will recognize you after your first message.</p>
+          <a href="#flow-chart" class="lead">
+            <img class="icon bg-primary" src="assets/img/icons/theme/communication/group-chat.svg" alt="Icon" data-inject-svg />
+            See how
+          </a>
         </div>
       </div>
       <div class="col-md-9 col-lg-6 col-xl-5">
@@ -160,32 +163,48 @@ main: true
   </div>
 </section>
 
-<section>
+<section id="flow-chart">
   <div class="container">
-    <div class="row section-title justify-content-center text-center">
+    <div class="row section-title justify-content-center text-center m-0">
       <div class="col-md-9 col-lg-8 col-xl-7">
         <h3 class="display-4">Clock-in your team</h3>
         <div class="lead">Get started immediately, no sign up required.</div>
         <hr/>
         <div class="lead text-left">
-          <p>
-            Here is how the flow works:
-            <ol>
-              <li>
-                All your employees tells the amount of daily work from the Slack app.<br/> For Example:
-                <blockquote>Worked 5 hours today.</blockquote>
-                <blockquote>Clock-in 2 and a half hours for today.</blockquote>
-                <blockquote>I worked 9 am to 5 pm yesterday.</blockquote>
+          <p>Here is how it works:
+            <div>
+              <img class="icon icon-md bg-info" src="assets/img/icons/interface/icon-clock.svg" alt="Icon" data-inject-svg />
+              All your employees tells the amount of daily work from Slack.
+              <div class="ml-3">
+                <img class="icon icon-sm bg-dark" src="assets/img/icons/theme/communication/chat-6.svg" alt="Icon" data-inject-svg />
+                Worked 5 hours today.
+              </div>
+              <div class="ml-3">
+                <img class="icon icon-sm bg-dark" src="assets/img/icons/theme/communication/chat-6.svg" alt="Icon" data-inject-svg />
+                Clock-in 2 and a half hours for today.
+              </div>
+              <div class="ml-3">
+                <img class="icon icon-sm bg-dark" src="assets/img/icons/theme/communication/chat-6.svg" alt="Icon" data-inject-svg />
+                I worked 9 am to 5 pm yesterday.
+              </div>
+              <div class="ml-3">
+                <img class="icon icon-sm bg-dark" src="assets/img/icons/theme/communication/chat-5.svg" alt="Icon" data-inject-svg />
                 etc, etc...
-              </li> 
-              <li>
-                You only message once for a report, by saying something like:
-                <blockquote>Give me the last 2 weeks report.</blockquote>
-              </li>
-            </ol>
+              </div>
+            </div>
+            <br />
+            <div>
+              <img class="icon icon-md bg-dark" src="assets/img/icons/theme/communication/group-chat.svg" alt="Icon" data-inject-svg />
+              Managers ask for a report
+              <div class="ml-3">
+                <img class="icon icon-sm bg-dark" src="assets/img/icons/theme/communication/chat-6.svg" alt="Icon" data-inject-svg />
+                Give me the last 2 weeks work hours
+              </div>
+            </div>
           </p>
         </div>
       </div>
+      <img class="img-fluid d-none d-sm-inline-block" src="{{site.metaimageurl}}" alt="A flow chart showing employees report to you, versus, employees report to Clock-in AI and CLock-in AI reports to you.">
     </div>
     <div class="row justify-content-center">
       <div class="col-xl-5 col-lg-6 col-md-7 text-center">
