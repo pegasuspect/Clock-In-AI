@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Add Clock-in AI to Slack
+title: Clock-in AI - Track Work Hours with Slack App
 email: info@clockin.ai
+metaimageurl: https://clockin.ai/assets/img/metaimage.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Keep track of how long your team worked weekly by chatting with an AI Assistant, Clock-in AI.
-  Use it for tracking any daily activity with minute precision. Do all of that by chatting. 
-  No commands, no bots, only AI.
+  Keep track of how long your team worked weekly in minute precision by adding Clock-in AI to your team.
+  No commands, no bots, only messages.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://clockin.ai" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -40,7 +40,8 @@ url: "https://clockin.ai" # the base hostname & protocol for your site, e.g. htt
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - CNAME
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
